@@ -1,6 +1,6 @@
 # Web setup
 
-Monorepa based on ```lerna``` and ```yarn workspace```
+Monorepa based on [lerna](https://lerna.js.org/) and [yarn workspace](https://yarnpkg.com/lang/ru/docs/workspaces/)
 
 ## Install
 
