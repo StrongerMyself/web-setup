@@ -3,10 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces",
-    "clean": "lerna clean",
+    "bootstrap": "lerna run clean && lerna bootstrap --use-workspaces",
+    "clean": "lerna clean && lerna run clean --parallel --stream",
     "ls": "lerna ls",
-    "dev": "lerna run dev --parallel --stream"
+    "dev": "lerna run dev --parallel --stream",
+    "build": "lerna run build --parallel --stream",
+    "compile": "lerna run compile --parallel --stream"
   },
   "workspaces": [
     "packages/*"
