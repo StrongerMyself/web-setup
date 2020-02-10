@@ -1,13 +1,13 @@
 {
   "name": "sample",
   "version": "1.0.0",
-  "main": "export",
-  "module": "export",
-  "types": "export",
+  "main": "src/index.tsx",
+  "module": "src/index.tsx",
+  "types": "src/index.tsx",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "parcel ./demo/index.html",
+    "build": "parcel build ./src/index.tsx"
   }
 }
